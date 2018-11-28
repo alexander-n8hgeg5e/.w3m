@@ -1,0 +1,33 @@
+keymap . NEXT
+keymap , PREV
+keymap d NEXT_DOWN
+keymap e NEXT_UP 
+keymap UP MOVE_UP
+keymap DOWN MOVE_DOWN
+keymap LEFT MOVE_LEFT
+keymap RIGHT MOVE_RIGHT
+keymap v NEXT_RIGHT_DOWN
+keymap w NEXT_LEFT_UP
+keymap f NEXT_RIGHT
+keymap s NEXT_LEFT
+keymap b SELECT
+keymap h HISTORY
+keymap t TAB_MENU
+keymap A ADD_BOOKMARK
+keymap E EXTERN
+keymap i PEEK_LINK
+keymap l VIEW_BOOKMARK
+keymap j MOVE_DOWN
+keymap k MOVE_UP
+keymap ? HELP
+keymap u UNDO 
+keymap z REDO 
+
+keymap F1 SEARCH_PREV
+keymap F3 SEARCH_NEXT
+
+keymap c LIST
+
+keymap i DISPLAY_IMAGE
+keymap g GOTO_LINE
+keymap m LINK_MENU

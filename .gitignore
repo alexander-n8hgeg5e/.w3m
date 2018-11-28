@@ -1,0 +1,8 @@
+*.html
+*.jpg
+w3mcache*
+w3msrc*
+w3mtmp*
+w3mcookie*
+cookie*
+history
