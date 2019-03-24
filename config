@@ -24,10 +24,10 @@ ignore_null_img_alt 1
 view_unseenobject 0
 display_image 1
 pseudo_inlines 1
-auto_image 0
+auto_image 1
 max_load_image 4
-ext_image_viewer 0
-image_scale 50
+ext_image_viewer 1
+image_scale 100
 imgdisplay w3mimgdisplay
 image_map_list 1
 fold_line 0
@@ -36,12 +36,12 @@ show_srch_str 1
 label_topline 1
 nextpage_topline 0
 color 1
-basic_color terminal
-anchor_color terminal
-image_color terminal
-form_color terminal
-mark_color terminal
-bg_color terminal
+basic_color white
+anchor_color yellow
+image_color green
+form_color cyan
+mark_color magenta
+bg_color black
 active_style 1
 active_color blue
 visited_anchor 1
@@ -60,8 +60,8 @@ wrap_search 1
 ignorecase_search 1
 use_mouse 1
 reverse_mouse 0
-relative_wheel_scroll 0
-relative_wheel_scroll_ratio 30
+relative_wheel_scroll 1
+relative_wheel_scroll_ratio 5
 fixed_wheel_scroll_count 5
 clear_buffer 0
 decode_cte 0
@@ -79,8 +79,8 @@ editor /usr/bin/vi
 mailto_options 1
 mailer mutt
 extbrowser qutebrowser
-extbrowser2 
-extbrowser3 
+extbrowser2 nvim_open_browsertab
+extbrowser3 rind firefox
 extbrowser4 
 extbrowser5 
 extbrowser6 
