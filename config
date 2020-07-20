@@ -77,7 +77,7 @@ extbrowser rind xterm -e w3m -sixel
 extbrowser2 nvim_open_browsertab
 extbrowser3 rind qutebrowser
 extbrowser4 less
-extbrowser5 rind firefox
+extbrowser5 b default
 extbrowser6 
 extbrowser7 
 extbrowser8 
