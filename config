@@ -1,7 +1,6 @@
 tabstop 4
 indent_incr 4
 pixel_per_char 8
-pixel_per_line 17
 frame 1
 target_self 0
 open_tab_blank 0
@@ -24,12 +23,6 @@ ignore_null_img_alt 1
 view_unseenobject 0
 display_image 0
 pseudo_inlines 1
-auto_image 1
-max_load_image 4
-ext_image_viewer 1
-image_scale 100
-imgdisplay gpicview
-image_map_list 1
 fold_line 0
 show_lnum 0
 show_srch_str 1
@@ -70,14 +63,14 @@ index_file
 mime_types ~/.mime.types, /etc/mime.types
 mailcap ~/.w3m/mailcap
 urimethodmap ~/.w3m/urimethodmap, /etc/w3m/urimethodmap
-editor e -w
+editor e -wg
 mailto_options 1
 mailer mutt
 extbrowser rind xterm -e w3m -sixel
 extbrowser2 nvim_open_browsertab
 extbrowser3 rind qutebrowser
 extbrowser4 less
-extbrowser5 b default
+extbrowser5 b -vgl default
 extbrowser6 
 extbrowser7 
 extbrowser8 

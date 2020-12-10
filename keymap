@@ -75,6 +75,7 @@ keymap v VIEW_IMAGE
 ##########################
 ###   BUFFERS / TABS   ###
 ##########################
+keymap T TAB_GOTO
 keymap B SELECT
 keymap V VIEW 
 keymap I DISPLAY_IMAGE
