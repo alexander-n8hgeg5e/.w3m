@@ -28,7 +28,7 @@ auto_image 1
 max_load_image 4
 ext_image_viewer 1
 image_scale 100
-imgdisplay w3mimgdisplay
+imgdisplay cacaview
 image_map_list 1
 fold_line 0
 show_lnum 0
@@ -54,6 +54,7 @@ confirm_qq 0
 close_tab_back 1
 mark 0
 emacs_like_lineedit 0
+space_autocomplete 0
 vi_prec_num 1
 mark_all_pages 1
 wrap_search 1
@@ -104,6 +105,7 @@ dns_order 0
 use_proxy 1
 http_proxy 
 https_proxy 
+gopher_proxy 
 ftp_proxy 
 no_proxy 
 noproxy_netaddr 1
@@ -143,4 +145,4 @@ use_jisx0212 0
 use_jisx0213 0
 strict_iso2022 1
 gb18030_as_ucs 0
-simple_preserve_space 0
+simple_preserve_space 1
