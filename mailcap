@@ -12,7 +12,8 @@ application/svg;	display -alpha extract -resize 800 '%s'; test=test "$DISPLAY" !
 #image/svg;	display -alpha extract -resize 800 '%s'; test=test "$DISPLAY" != ""
 image/*;	display -resize 800 '%s'; test=test "$DISPLAY" != ""
 #image/*; env -u DISPLAY cacaview '%s' ; needsterminal
-video/*; env -u DISPLAY mplayer -vo caca '%s' ; needsterminal
+#video/*; env -u DISPLAY mplayer -vo caca '%s' ; needsterminal
+video/*; env -u DISPLAY mpv '%s' ; needsterminal
 *.pdf;	okular '%s'; test=test "$DISPLAY" != ""
 audio/basic;	/usr/lib/mime/playaudio '%s'; description=Basic uLaw Audio; nametemplate=%s.au
 application/x-tar;	/bin/tar tvf -; print=/bin/tar tvf - | print text/plain:-; copiousoutput
