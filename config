@@ -18,6 +18,7 @@ multicol 0
 alt_entity 0
 graphic_char 1
 display_borders 0
+disable_center 0
 fold_textarea 1
 display_ins_del 1
 ignore_null_img_alt 1
@@ -28,6 +29,7 @@ auto_image 1
 max_load_image 4
 ext_image_viewer 1
 image_scale 100
+inline_img_protocol 0
 imgdisplay display
 image_map_list 1
 fold_line 0
@@ -78,7 +80,7 @@ extbrowser rind xterm -e w3m -sixel
 extbrowser2 nvim_open_browsertab
 extbrowser3 rind qutebrowser
 extbrowser4 less
-extbrowser5 b anonymous
+extbrowser5 b anonymous2
 extbrowser6 b gentoo
 extbrowser7 
 extbrowser8 
@@ -93,6 +95,7 @@ pre_form_file ~/.w3m/pre_form
 siteconf_file ~/.w3m/siteconf
 user_agent 
 no_referer 0
+cross_origin_referer 1
 accept_language de;q=1.0, en;q=0.5
 accept_encoding gzip, compress, bzip, bzip2, deflate
 accept_media text/html, text/*;q=0.5, image/*, application/*
@@ -101,6 +104,7 @@ retry_http 1
 default_url 1
 follow_redirection 10
 meta_refresh 0
+localhost_only 0
 dns_order 0
 use_proxy 1
 http_proxy 
@@ -111,11 +115,14 @@ no_proxy
 noproxy_netaddr 1
 no_cache 0
 ssl_forbid_method 2, 3
+ssl_min_version
+ssl_cipher
 ssl_verify_server 1
 ssl_cert_file 
 ssl_key_file 
 ssl_ca_path 
 ssl_ca_file 
+ssl_ca_default 1
 use_cookie 1
 show_cookie 0
 accept_cookie 1
